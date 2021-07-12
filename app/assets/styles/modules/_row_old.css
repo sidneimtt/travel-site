@@ -1,7 +1,7 @@
 .row {
-  /* @mixin clearfix; */
+  /* @mixin clearfix;  gera erro no codigo */
 
-  /* only one the screen is medium or larger we use these style*/
+  /* only one the screen is medium 800px  or larger we use these style*/
   @mixin atMedium {
     &__medium-4 {
       float: left;
