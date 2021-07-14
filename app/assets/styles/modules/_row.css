@@ -1,4 +1,5 @@
 .row {
+  /* @mixin clearfix;  gera erro no codigo */
   @mixin clearfix;
 
   &--gutters {
@@ -21,7 +22,7 @@
     margin-bottom: 1rem;
   }
 
-  /* only one the screen is medium or larger we use these style*/
+  /* only one the screen is medium 800px  or larger we use these style*/
   @mixin atMedium {
     &__b-margin-until-medium {
       margin-bottom: 0;
