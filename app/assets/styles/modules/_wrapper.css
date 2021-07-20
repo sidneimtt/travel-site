@@ -9,6 +9,30 @@
     max-width: 976px;
   }
 
+  &--no-padding-until-medium {
+    /* only one the screen is small */
+    padding-left: 0;
+    padding-right: 0;
+
+    /* only one the screen is medium 800px  or larger we use these style*/
+    @mixin atMedium {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  &--no-padding-until-large {
+    /* only one the screen is small */
+    padding-left: 0;
+    padding-right: 0;
+
+    /* only one the screen is medium 800px  or larger we use these style*/
+    @mixin atLarge {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
   .wrapper {
     padding-left: 0;
     padding-right: 0;
