@@ -1,37 +1,22 @@
 /** Usando PostCSS 
 /** B.E.M principles, Block - Element - Modifier */
 /** Block large-hero */
-
-
-/* Usando CSS Grid   */
 .large-hero {
   border-bottom: 10px solid $mainBlue;
-  /* position: relative; */
-  display: grid;
-  grid-template-columns: 1fr;
-
-  &__image {
-    grid-column: 1;
-    grid-row: 1;
-    /* display: block; */
-    img {
-      display: block;
-    }    
+  position: relative; 
+  
+  &__image {    
+   display: block; 
   }
 
-  &__text-content {
-    align-self: center;
-    grid-column: 1;
-    grid-row: 1;
-    padding-top: 60px;
-    text-align: center;
-
-    /*position: absolute;
+  &__text-content {    
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
     width: 100%;
-    text-align: center; */
+    padding-top: 60px;
+    text-align: center; 
   }
 
   &__title {
